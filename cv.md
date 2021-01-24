@@ -4,9 +4,10 @@
 ### Contact details
 - Email: anuarkulmagambetov@gmail.com
 - Phone number: +61 481 331 194
--------------------     ----------------------------
 
-###Summary
+---
+
+### Summary
 
 Anuar Kulmagambetov always learns and tries to achieve new heights. His life is full of experience in all diferent fields
 from working in a construction to playing in a music band at the national television. He won a scholarship to study bachelor
@@ -14,7 +15,7 @@ degree at the Kazakh Agro-Technical University. Studied in University of Agricul
 In 2018 he finished English courses in Australia and continued his studies at the Sydney Business and Travel Academy.
 
 ---
-###Skills
+### Skills
 
 - Basics
    - HTML

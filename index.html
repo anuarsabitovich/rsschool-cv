@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Anuar Kulmagambetov</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!--Name and profession-->
-    <div class="nameSurname">
+    <header>
       <h1>Anuar Kulmagambetov</h1>
-    </div>
-    <div>
       <h2>Front End Developer</h2>
-    </div>
+      <figure>
+        <img
+          src="/rsschool-cv/images/circle-cropped.png"
+          alt="Photo of Anuar"
+        />
+        <figcaption>PHOTO</figcaption>
+      </figure>
+    </header>
     <!-- Contact details-->
     <div>
       <ul>
@@ -24,7 +30,7 @@
     </div>
     <!--End of Section Name and Contact details-->
     <!--Summary-->
-    <div class="entry">
+    <article class="entry">
       <h3>SUMMARY</h3>
       <p>
         Anuar Kulmagambetov always learns and tries to achieve new heights. His
@@ -35,25 +41,47 @@
         exchange student. In 2018 he finished English courses in Australia and
         continued his studies at the Sydney Business and Travel Academy.
       </p>
-    </div>
+    </article>
     <!--End of summary section-->
-    <!--Start of Education section-->
+    <!-- Start of Skills section-->
     <div class="entry">
-      <h3>EDUCATION</h3>
+      <h3>SKILLS</h3>
       <div class="content">
-        <h4>2007 - 2012</h4>
-        <p>Kazakh-Turkish High School, Kostanay Kazakhstan</p>
-      </div>
-      <div class="content">
-        <h4>2012 - 2016</h4>
-        <p>Kazakh Agro Technical University, Astana Kazakhstan</p>
-      </div>
-      <div class="content">
-        <h4>2018-2021</h4>
-        <p>Sydney Business And Travel Academy, Sydney Australia</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
       </div>
     </div>
-    <!--End of Education section-->
+    <!--End of Skills section-->
+    <!--Start of Code Example section-->
+    <div class="entry">
+      <h3>CODE EXAMPLE</h3>
+      <details class="content">
+        <summary>Open Code</summary>
+        <pre>
+              <code>
+                package com.company;
+
+                public class Main {
+
+                    public static void main(String[] args) {
+                  // write your code here
+                    }
+
+                    public static int sumDigits (int number) {
+                     if(number=10) {
+                         return -1;
+                     } else {
+
+                     }
+                }
+              </code>
+            </pre>
+      </details>
+    </div>
+    <!--End of Code Example section-->
     <!--Start of Working experience section-->
     <div class="entry">
       <h3>EXPERIENCE</h3>
@@ -101,21 +129,27 @@
       </div>
     </div>
     <!-- End of Working experience section-->
-    <!-- Start of Skills section-->
+    <!--Start of Education section-->
     <div class="entry">
-      <h3>SKILLS</h3>
+      <h3>EDUCATION</h3>
       <div class="content">
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
+        <h4>2007 - 2012</h4>
+        <p>Kazakh-Turkish High School, Kostanay Kazakhstan</p>
+      </div>
+      <div class="content">
+        <h4>2012 - 2016</h4>
+        <p>Kazakh Agro Technical University, Astana Kazakhstan</p>
+      </div>
+      <div class="content">
+        <h4>2018-2021</h4>
+        <p>Sydney Business And Travel Academy, Sydney Australia</p>
       </div>
     </div>
-    <!--End of Skills section-->
+    <!--End of Education section-->
+
     <!--Start of Language knowledge section-->
     <div class="entry">
-      <h3>English Language Knowledge</h3>
+      <h3>ENGLISH LANGUAGE KNOWLEDGE</h3>
       <div class="content">
         <ul class="skills">
           <li>IELTS Academic - 6.0</li>
@@ -124,18 +158,9 @@
       </div>
     </div>
     <!--End of Language knowledge section-->
-    <article>article</article>
-    <aside>aside</aside>
-    <details>details</details>
-    <figcaption>figcaption</figcaption>
-    <figure>figure</figure>
-    <footer>footer</footer>
-    <header>header</header>
-    <main>main</main>
-    <mark>mark</mark>
-    <nav>nav</nav>
-    <section>section</section>
-    <summary>summary</summary>
-    <time>time </time>
+    <!--Start of footer-->
+    <footer>
+      <p>Author: Anuar Kulmagambetov</p>
+    </footer>
   </body>
 </html>

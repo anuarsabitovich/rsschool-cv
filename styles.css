@@ -1,0 +1,32 @@
+body {
+  color: #40514e;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+div.content {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  padding-top: 32px;
+}
+
+.entry {
+  width: 720px;
+  display: block;
+  padding-top: 55px;
+  clear: both;
+  margin-left: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}

@@ -7,6 +7,12 @@ body {
   margin: 0 auto;
 }
 
+h5 {
+  color: #40514e;
+
+  font-family: Arial;
+}
+
 .contacts {
   text-align: center;
   margin: 0 auto;
@@ -30,6 +36,7 @@ header {
   text-align: center;
   margin: 0 auto;
 }
+
 img {
   display: block;
   margin: 0 auto;
@@ -40,6 +47,40 @@ img {
 ul {
   margin: 0 auto;
 }
+
 li {
   margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+  .entry {
+    width: 500px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .entry {
+    width: 400px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .entry {
+    width: 300px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    margin: 0 auto;
+  }
 }

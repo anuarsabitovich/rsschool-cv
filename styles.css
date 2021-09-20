@@ -129,8 +129,18 @@ a {
 
 .projects-p {
   text-align: center;
+
+
 }
 
+.projects-a {
+  transition: all .2s ease-in-out;
+
+}
+
+.projects-a:hover {
+  transform: scale(1.1);
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
